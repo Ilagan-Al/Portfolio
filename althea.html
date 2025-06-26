@@ -1,0 +1,250 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Althea Ilagan Portfolio</title>
+
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css" />
+
+  <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet' />
+
+  <link rel="stylesheet" href="css/althea.css" />
+</head>
+<body>
+
+  <div class="wrapper">
+
+<header>
+  <div class="person">
+    <img src="images/althea.jpg" alt="Althea" />
+    <h3 class="name">Althea Ilagan</h3>
+    <p class="section">BSIT</p>
+  </div>
+
+  <nav class="menubar">
+  <ul>
+    <li><a href="#intro"><i class="fas fa-house"></i> <span>Introduction</span></a></li>
+    <li><a href="#about"><i class="fas fa-user"></i> <span>About</span></a></li>
+    <li><a href="#education"><i class="fas fa-graduation-cap"></i> <span>Education</span></a></li>
+    <li><a href="#services"><i class="fas fa-briefcase"></i> <span>Services</span></a></li>
+    <li><a href="#contact"><i class="fas fa-envelope"></i> <span>Contact</span></a></li>
+ </ul>
+</nav>
+
+
+</header>
+
+    <!-- Intro -->
+    <div class="main-content">
+      <section class="intro" id="intro">
+        <h3>Hello, My name is</h3>
+        <h1>Althea Ilagan</h1>
+        <p>I'm a recent graduate with a Bachelor’s degree in Information Technology from First Asia Institute of Humanities and Technologies.</p>
+      </section>
+
+      <!-- About Me -->
+      <section class="about" id="about">
+      <h1 class="heading"><span>about</span></h1>
+      <div class="row">
+        <div class="input">
+          <h3><span>full name:</span> Althea Lacatan Ilagan</h3>
+          <h3><span>birthday:</span> July 13, 2002</h3>
+          <h3><span>age:</span> 22 years old</h3>
+          <h3><span>course:</span> BSIT</h3>
+          <h3><span>address:</span> Aya Talisay Batangas</h3>
+          <h4>
+            Hi! I’m a recent graduate with a degree in Information Technology. I’m someone who enjoys learning, solving problems, and getting things done right.
+            I’m known for being organized, detail-oriented, and focused, especially when working on something I care about.
+            I’m always exploring new tools and ways to improve how I work, whether it’s through technology or better habits.
+            I take pride in being dependable and giving my best in everything I do.
+            Right now, I’m focused on growing both personally and professionally, and I’m excited about the opportunities ahead.
+          </h4>
+        </div>
+      </div>
+    </section>
+
+    <!-- Education -->
+    <section class="education" id="education">
+      <h1 class="heading"><span>Education</span></h1>
+      <div class="container">
+        <div class="column">
+          <i class="fas fa-graduation-cap"></i>
+          <span>2008–2012</span>
+          <h3>Elementary | Montessori East Tanauan</h3>
+          <p>Achiever</p>
+        </div>
+        <div class="column">
+          <i class="fas fa-graduation-cap"></i>
+          <span>2012–2015</span>
+          <h3>Elementary | Gold Pond School</h3>
+          <p>Achiever</p>
+        </div>
+        <div class="column">
+          <i class="fas fa-graduation-cap"></i>
+          <span>2015–2019</span>
+          <h3>Junior High School | Talisay Polytechnic Institute</h3>
+          <p>With Honors</p>
+        </div>
+        <div class="column">
+          <i class="fas fa-graduation-cap"></i>
+          <span>2019–2021</span>
+          <h3>Senior High School | Fidelis Senior High School</h3>
+          <p>With Honors</p>
+        </div>
+        <div class="column">
+          <i class="fa-solid fa-school-flag"></i>
+          <span>2021–2025</span>
+          <h3>College | First Asia Institute of Technology and Humanities</h3>
+          <p>President's Lister (SY 2021–2022, 2023–2024)<br>Dean’s Lister (SY 2023–2024, 2024–2025)</p>
+        </div>
+      </div>
+    </section>
+
+    <!-- Services Section -->
+    <section class="services" id="services">
+      <h1 class="heading">Services</h1>
+      <div class="container">
+
+        <!-- Web Development -->
+        <div class="column"
+            onclick="openModal(this,
+              'Web Development',
+              'Design and develop responsive, user-friendly websites using HTML, CSS, JavaScript, and ReactJS, with attention to structure, usability, and compatibility across devices.')">
+          <img src="images/web dev.jpg" alt="Web Development">
+        </div>
+
+        <!-- Project Management -->
+        <div class="column"
+            onclick="openModal(this,
+              'Project Management',
+              'Support project workflows by assisting in planning, task coordination, progress tracking, and documentation using structured tools and clear communication.')">
+          <img src="images/project management.jpg" alt="Project Management">
+        </div>
+
+        <!-- UI/UX Design -->
+        <div class="column"
+            onclick="openModal(this,
+              'UI/UX Design',
+              'Create structured wireframes and visual mockups using tools like Canva and diagramming platforms to design clean and user-focused interface concepts.')">
+          <img src="images/UI UX Design.png" alt="UI/UX Design">
+        </div>
+
+        <!-- Quality Assurance & Testing -->
+        <div class="column"
+            onclick="openModal(this,
+              'Quality Assurance & Testing',
+              'Conduct functional testing and system checking to identify bugs, usability issues, and ensure consistency based on requirements or expected performance.')">
+          <img src="images/qa.jpg" alt="Quality Assurance & Testing">
+        </div>
+
+        <!-- Data Entry & Encoding -->
+        <div class="column"
+            onclick="openModal(this,
+              'Data Entry & Encoding',
+              'Accurately input and organize information using spreadsheet tools, databases, and system interfaces, supporting data integrity and workflow efficiency.')">
+          <img src="images/dataentry.jpg" alt="Data Entry & Encoding">
+        </div>
+
+        <!-- Documentation -->
+        <div class="column"
+            onclick="openModal(this,
+              'Documentation',
+              'Create well-structured documentation including user manuals, system process flows, and reports tailored for technical and non-technical audiences.')">
+          <img src="images/documentation.jpg" alt="Documentation">
+        </div>
+
+      </div>
+    </section>
+
+    <!-- Global Modal (placed once) -->
+    <div id="globalModal" class="modal">
+      <div class="modal-content">
+        <span class="close" onclick="closeModal()">&times;</span>
+        <h3 id="modalTitle"></h3>
+        <p id="modalDescription"></p>
+      </div>
+    </div>
+
+    <!-- Contact -->
+    <section class="contact" id="contact">
+      <h1 class="heading"><span>Contact</span></h1>
+      <div class="row">
+        <div class="content">
+          <h3 class="title">Contact Information</h3>
+          <div class="info">
+            <h3><i class="fa-solid fa-user"></i> Althea Lacatan Ilagan</h3>
+            <h4><i class="fa-solid fa-envelope"></i> a.ilagan237@gmail.com</h4>
+            <h3><i class="fa-solid fa-phone"></i> 09198216100</h3>
+            <h3><i class="fa-solid fa-location-dot"></i> Aya, Talisay, Batangas</h3>
+          </div>
+
+          <div class="social-links">
+            <div class="in">
+              <a href="https://www.facebook.com/althea.ilagan.737/" target="_blank">
+                <i class='bx bxl-facebook-circle'></i>
+              </a>
+              <h4>Facebook</h4>
+            </div>
+            
+            <div class="in">
+              <a href="https://www.linkedin.com/in/althea-ilagan-08b229277/" target="_blank">
+                <i class='bx bxl-linkedin-square'></i>
+              </a>
+              <h4>LinkedIn</h4>
+            </div>
+
+            <div class="in">
+              <a href="https://www.onlinejobs.ph/jobseekers/info/2780028" target="_blank">
+                <i class='bx bxs-user-detail'></i>
+              </a>
+              <h4>OnlineJobs.ph</h4>
+            </div>
+
+            <div class="in">
+              <a href="https://github.com/Ilagan-Al" target="_blank">
+                <i class='bx bxl-github'></i>
+              </a>
+              <h4>GitHub</h4>
+            </div>
+          </div>
+
+        </div>
+      </div>
+    </section>
+  </div>   
+
+  <script>
+    function openModal(column, title, description) {
+      const modal = document.getElementById('globalModal');
+      const modalContent = modal.querySelector('.modal-content');
+
+      // Set content
+      document.getElementById('modalTitle').textContent = title;
+      document.getElementById('modalDescription').textContent = description;
+
+      // Get position of clicked column
+      const rect = column.getBoundingClientRect();
+      const scrollTop = window.scrollY || document.documentElement.scrollTop;
+      const scrollLeft = window.scrollX || document.documentElement.scrollLeft;
+
+      modal.style.top = (rect.top + scrollTop + rect.height / 2) + 'px';
+      modal.style.left = (rect.left + scrollLeft + rect.width / 2) + 'px';
+      modal.style.transform = 'translate(-50%, -50%)';
+      modal.style.display = 'block';
+    }
+
+    function closeModal() {
+      const modal = document.getElementById('globalModal');
+      modal.style.display = 'none';
+    }
+
+    // Optional: close on outside click
+    window.addEventListener('click', function(e) {
+      const modal = document.getElementById('globalModal');
+      if (e.target === modal) closeModal();
+    });
+  </script>
+  
+</body>
+</html>
