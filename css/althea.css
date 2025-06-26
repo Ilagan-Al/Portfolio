@@ -325,7 +325,7 @@ header .menubar ul li a:hover {
   color: #333;
 }
 
-/* Contact */
+/* Contact Section Layout */
 .contact .row {
   display: flex;
   align-items: center;
@@ -342,10 +342,11 @@ header .menubar ul li a:hover {
 .contact .row .form {
   flex: 1 1 45rem;
   padding: 2rem;
-  margin-bottom: 4rem;
   margin: 2rem;
+  margin-bottom: 4rem;
 }
 
+/* Form Input Styling */
 .contact .row form .box {
   padding: 1rem;
   margin: 1rem 0;
@@ -356,6 +357,7 @@ header .menubar ul li a:hover {
   width: 100%;
 }
 
+/* Contact Info Title */
 .contact .row .content .title {
   text-transform: uppercase;
   color: #fff;
@@ -364,6 +366,7 @@ header .menubar ul li a:hover {
   padding-left: 7rem;
 }
 
+/* Contact Info Lines */
 .contact .row .content .info h3,
 .contact .row .content .info h4 {
   display: flex;
@@ -385,20 +388,54 @@ header .menubar ul li a:hover {
   text-transform: lowercase;
 }
 
-.contact .social-links .in a[href*="facebook.com"] i {
-  color: #1877F2; 
+/* Social Links Container */
+.contact .social-links {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 2rem;
+  margin-top: 2rem;
+  padding-left: 7rem;
 }
 
-.contact .social-links .in a[href*="linkedin.com"] i {
-  color: #0A66C2; 
+/* Individual Social Box */
+.contact .social-links .in {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
 }
 
-.contact .social-links .in a[href*="onlinejobs.ph"] i {
-  color: #2D7DD2; 
+/* Social Logo Images */
+.contact .social-links .in img {
+  height: 6rem;
+  width: auto;
+  object-fit: contain;
+  display: block;
+  transition: transform 0.3s ease;
 }
 
-.contact .social-links .in a[href*="github.com"] i {
-  color: #171515; 
+.contact .social-links .in a[href*="linkedin.com"] img {
+  height: 7.5rem;
+}
+
+.contact .social-links .in a[href*="facebook.com"] img {
+  height: 7rem;
+}
+
+.contact .social-links .in a[href*="onlinejobs.ph"] img {
+  height: 7rem;
+}
+
+.contact .social-links .in a:hover img {
+  transform: scale(1.2);
+}
+
+/* Social Labels */
+.contact .social-links .in h4 {
+  margin-top: 0.5rem;
+  color: #eee;
+  font-size: 1.4rem;
 }
 
 .btn {
