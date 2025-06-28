@@ -143,6 +143,8 @@ header .menubar ul li a:hover {
   text-align: justify;
 }
 
+/* ABOUT  */
+
 .about .row {
   display: flex;
   align-items: center;
@@ -178,6 +180,19 @@ header .menubar ul li a:hover {
   font-weight: normal;
   text-transform: capitalize;
   text-align: justify;
+}
+
+.cv-link {
+  display: inline-block;
+  /* margin-top: 0.5rem; */
+  font-size: 1.8rem;
+  color: #00ccff;
+  text-decoration: underline;
+  transition: color 0.3s ease;
+}
+
+.cv-link:hover {
+  color: #0099cc;
 }
 
 /* EDUCATION */
