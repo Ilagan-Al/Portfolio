@@ -515,6 +515,16 @@ header .menubar ul li a:hover {
   text-align: center;
 }
 
+.contact .row .content .info h4 a {
+  color: #eee; /* Match the normal text color */
+  text-decoration: none;
+}
+
+.contact .row .content .info h4 a:hover {
+  color: #00ccff;
+  text-decoration: underline;
+}
+
 @media (max-width: 1200px) {
   html {
     font-size: 55%;
